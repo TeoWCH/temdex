@@ -1,0 +1,1200 @@
+.Temcard {
+  color: inherit;
+  width: 225px;
+  height: 275px;
+  border: 5px solid;
+  border-image-slice: 1;
+  position: relative;
+  margin: auto;
+  padding: 50px;
+  transition: all 0.1s;
+}
+.Temcard .types-bar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 30px;
+  display: flex;
+  align-items: flex-end;
+}
+.Temcard .types-bar img:not(:first-child) {
+  margin-left: -10px;
+  width: 30px;
+  height: 30px;
+}
+.Temcard .types-bar img:first-child {
+  height: 40px;
+  width: 40px;
+}
+.Temcard .tem-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Temcard .tem-info img {
+  width: 100%;
+  border: 1px solid;
+}
+.Temcard .name {
+  width: 100%;
+  border: 1px solid;
+  border-top: none;
+  text-align: center;
+}
+.Temcard:hover {
+  color: inherit;
+  transform: scale(1.05, 1.05);
+}
+
+.neutral-fire {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #e85c4e);
+}
+.neutral-fire .tem-info img,
+.neutral-fire .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-water {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #45cbff);
+}
+.neutral-water .tem-info img,
+.neutral-water .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-nature {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #adde77);
+}
+.neutral-nature .tem-info img,
+.neutral-nature .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-electric {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #ffe174);
+}
+.neutral-electric .tem-info img,
+.neutral-electric .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-earth {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #ba795c);
+}
+.neutral-earth .tem-info img,
+.neutral-earth .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-mental {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #c369a3);
+}
+.neutral-mental .tem-info img,
+.neutral-mental .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-wind {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #08fab3);
+}
+.neutral-wind .tem-info img,
+.neutral-wind .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-digital {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #a4c0c1);
+}
+.neutral-digital .tem-info img,
+.neutral-digital .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-melee {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #fa9260);
+}
+.neutral-melee .tem-info img,
+.neutral-melee .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-crystal {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #ea4a68);
+}
+.neutral-crystal .tem-info img,
+.neutral-crystal .name {
+  border-color: #e6f7f7;
+}
+
+.neutral-toxic {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #5c565c);
+}
+.neutral-toxic .tem-info img,
+.neutral-toxic .name {
+  border-color: #e6f7f7;
+}
+
+.fire-neutral {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #e6f7f7);
+}
+.fire-neutral .tem-info img,
+.fire-neutral .name {
+  border-color: #e85c4e;
+}
+
+.fire-water {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #45cbff);
+}
+.fire-water .tem-info img,
+.fire-water .name {
+  border-color: #e85c4e;
+}
+
+.fire-nature {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #adde77);
+}
+.fire-nature .tem-info img,
+.fire-nature .name {
+  border-color: #e85c4e;
+}
+
+.fire-electric {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #ffe174);
+}
+.fire-electric .tem-info img,
+.fire-electric .name {
+  border-color: #e85c4e;
+}
+
+.fire-earth {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #ba795c);
+}
+.fire-earth .tem-info img,
+.fire-earth .name {
+  border-color: #e85c4e;
+}
+
+.fire-mental {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #c369a3);
+}
+.fire-mental .tem-info img,
+.fire-mental .name {
+  border-color: #e85c4e;
+}
+
+.fire-wind {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #08fab3);
+}
+.fire-wind .tem-info img,
+.fire-wind .name {
+  border-color: #e85c4e;
+}
+
+.fire-digital {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #a4c0c1);
+}
+.fire-digital .tem-info img,
+.fire-digital .name {
+  border-color: #e85c4e;
+}
+
+.fire-melee {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #fa9260);
+}
+.fire-melee .tem-info img,
+.fire-melee .name {
+  border-color: #e85c4e;
+}
+
+.fire-crystal {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #ea4a68);
+}
+.fire-crystal .tem-info img,
+.fire-crystal .name {
+  border-color: #e85c4e;
+}
+
+.fire-toxic {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #5c565c);
+}
+.fire-toxic .tem-info img,
+.fire-toxic .name {
+  border-color: #e85c4e;
+}
+
+.water-neutral {
+  border-image-source: linear-gradient(to bottom, #45cbff, #e6f7f7);
+}
+.water-neutral .tem-info img,
+.water-neutral .name {
+  border-color: #45cbff;
+}
+
+.water-fire {
+  border-image-source: linear-gradient(to bottom, #45cbff, #e85c4e);
+}
+.water-fire .tem-info img,
+.water-fire .name {
+  border-color: #45cbff;
+}
+
+.water-nature {
+  border-image-source: linear-gradient(to bottom, #45cbff, #adde77);
+}
+.water-nature .tem-info img,
+.water-nature .name {
+  border-color: #45cbff;
+}
+
+.water-electric {
+  border-image-source: linear-gradient(to bottom, #45cbff, #ffe174);
+}
+.water-electric .tem-info img,
+.water-electric .name {
+  border-color: #45cbff;
+}
+
+.water-earth {
+  border-image-source: linear-gradient(to bottom, #45cbff, #ba795c);
+}
+.water-earth .tem-info img,
+.water-earth .name {
+  border-color: #45cbff;
+}
+
+.water-mental {
+  border-image-source: linear-gradient(to bottom, #45cbff, #c369a3);
+}
+.water-mental .tem-info img,
+.water-mental .name {
+  border-color: #45cbff;
+}
+
+.water-wind {
+  border-image-source: linear-gradient(to bottom, #45cbff, #08fab3);
+}
+.water-wind .tem-info img,
+.water-wind .name {
+  border-color: #45cbff;
+}
+
+.water-digital {
+  border-image-source: linear-gradient(to bottom, #45cbff, #a4c0c1);
+}
+.water-digital .tem-info img,
+.water-digital .name {
+  border-color: #45cbff;
+}
+
+.water-melee {
+  border-image-source: linear-gradient(to bottom, #45cbff, #fa9260);
+}
+.water-melee .tem-info img,
+.water-melee .name {
+  border-color: #45cbff;
+}
+
+.water-crystal {
+  border-image-source: linear-gradient(to bottom, #45cbff, #ea4a68);
+}
+.water-crystal .tem-info img,
+.water-crystal .name {
+  border-color: #45cbff;
+}
+
+.water-toxic {
+  border-image-source: linear-gradient(to bottom, #45cbff, #5c565c);
+}
+.water-toxic .tem-info img,
+.water-toxic .name {
+  border-color: #45cbff;
+}
+
+.nature-neutral {
+  border-image-source: linear-gradient(to bottom, #adde77, #e6f7f7);
+}
+.nature-neutral .tem-info img,
+.nature-neutral .name {
+  border-color: #adde77;
+}
+
+.nature-fire {
+  border-image-source: linear-gradient(to bottom, #adde77, #e85c4e);
+}
+.nature-fire .tem-info img,
+.nature-fire .name {
+  border-color: #adde77;
+}
+
+.nature-water {
+  border-image-source: linear-gradient(to bottom, #adde77, #45cbff);
+}
+.nature-water .tem-info img,
+.nature-water .name {
+  border-color: #adde77;
+}
+
+.nature-electric {
+  border-image-source: linear-gradient(to bottom, #adde77, #ffe174);
+}
+.nature-electric .tem-info img,
+.nature-electric .name {
+  border-color: #adde77;
+}
+
+.nature-earth {
+  border-image-source: linear-gradient(to bottom, #adde77, #ba795c);
+}
+.nature-earth .tem-info img,
+.nature-earth .name {
+  border-color: #adde77;
+}
+
+.nature-mental {
+  border-image-source: linear-gradient(to bottom, #adde77, #c369a3);
+}
+.nature-mental .tem-info img,
+.nature-mental .name {
+  border-color: #adde77;
+}
+
+.nature-wind {
+  border-image-source: linear-gradient(to bottom, #adde77, #08fab3);
+}
+.nature-wind .tem-info img,
+.nature-wind .name {
+  border-color: #adde77;
+}
+
+.nature-digital {
+  border-image-source: linear-gradient(to bottom, #adde77, #a4c0c1);
+}
+.nature-digital .tem-info img,
+.nature-digital .name {
+  border-color: #adde77;
+}
+
+.nature-melee {
+  border-image-source: linear-gradient(to bottom, #adde77, #fa9260);
+}
+.nature-melee .tem-info img,
+.nature-melee .name {
+  border-color: #adde77;
+}
+
+.nature-crystal {
+  border-image-source: linear-gradient(to bottom, #adde77, #ea4a68);
+}
+.nature-crystal .tem-info img,
+.nature-crystal .name {
+  border-color: #adde77;
+}
+
+.nature-toxic {
+  border-image-source: linear-gradient(to bottom, #adde77, #5c565c);
+}
+.nature-toxic .tem-info img,
+.nature-toxic .name {
+  border-color: #adde77;
+}
+
+.electric-neutral {
+  border-image-source: linear-gradient(to bottom, #ffe174, #e6f7f7);
+}
+.electric-neutral .tem-info img,
+.electric-neutral .name {
+  border-color: #ffe174;
+}
+
+.electric-fire {
+  border-image-source: linear-gradient(to bottom, #ffe174, #e85c4e);
+}
+.electric-fire .tem-info img,
+.electric-fire .name {
+  border-color: #ffe174;
+}
+
+.electric-water {
+  border-image-source: linear-gradient(to bottom, #ffe174, #45cbff);
+}
+.electric-water .tem-info img,
+.electric-water .name {
+  border-color: #ffe174;
+}
+
+.electric-nature {
+  border-image-source: linear-gradient(to bottom, #ffe174, #adde77);
+}
+.electric-nature .tem-info img,
+.electric-nature .name {
+  border-color: #ffe174;
+}
+
+.electric-earth {
+  border-image-source: linear-gradient(to bottom, #ffe174, #ba795c);
+}
+.electric-earth .tem-info img,
+.electric-earth .name {
+  border-color: #ffe174;
+}
+
+.electric-mental {
+  border-image-source: linear-gradient(to bottom, #ffe174, #c369a3);
+}
+.electric-mental .tem-info img,
+.electric-mental .name {
+  border-color: #ffe174;
+}
+
+.electric-wind {
+  border-image-source: linear-gradient(to bottom, #ffe174, #08fab3);
+}
+.electric-wind .tem-info img,
+.electric-wind .name {
+  border-color: #ffe174;
+}
+
+.electric-digital {
+  border-image-source: linear-gradient(to bottom, #ffe174, #a4c0c1);
+}
+.electric-digital .tem-info img,
+.electric-digital .name {
+  border-color: #ffe174;
+}
+
+.electric-melee {
+  border-image-source: linear-gradient(to bottom, #ffe174, #fa9260);
+}
+.electric-melee .tem-info img,
+.electric-melee .name {
+  border-color: #ffe174;
+}
+
+.electric-crystal {
+  border-image-source: linear-gradient(to bottom, #ffe174, #ea4a68);
+}
+.electric-crystal .tem-info img,
+.electric-crystal .name {
+  border-color: #ffe174;
+}
+
+.electric-toxic {
+  border-image-source: linear-gradient(to bottom, #ffe174, #5c565c);
+}
+.electric-toxic .tem-info img,
+.electric-toxic .name {
+  border-color: #ffe174;
+}
+
+.earth-neutral {
+  border-image-source: linear-gradient(to bottom, #ba795c, #e6f7f7);
+}
+.earth-neutral .tem-info img,
+.earth-neutral .name {
+  border-color: #ba795c;
+}
+
+.earth-fire {
+  border-image-source: linear-gradient(to bottom, #ba795c, #e85c4e);
+}
+.earth-fire .tem-info img,
+.earth-fire .name {
+  border-color: #ba795c;
+}
+
+.earth-water {
+  border-image-source: linear-gradient(to bottom, #ba795c, #45cbff);
+}
+.earth-water .tem-info img,
+.earth-water .name {
+  border-color: #ba795c;
+}
+
+.earth-nature {
+  border-image-source: linear-gradient(to bottom, #ba795c, #adde77);
+}
+.earth-nature .tem-info img,
+.earth-nature .name {
+  border-color: #ba795c;
+}
+
+.earth-electric {
+  border-image-source: linear-gradient(to bottom, #ba795c, #ffe174);
+}
+.earth-electric .tem-info img,
+.earth-electric .name {
+  border-color: #ba795c;
+}
+
+.earth-mental {
+  border-image-source: linear-gradient(to bottom, #ba795c, #c369a3);
+}
+.earth-mental .tem-info img,
+.earth-mental .name {
+  border-color: #ba795c;
+}
+
+.earth-wind {
+  border-image-source: linear-gradient(to bottom, #ba795c, #08fab3);
+}
+.earth-wind .tem-info img,
+.earth-wind .name {
+  border-color: #ba795c;
+}
+
+.earth-digital {
+  border-image-source: linear-gradient(to bottom, #ba795c, #a4c0c1);
+}
+.earth-digital .tem-info img,
+.earth-digital .name {
+  border-color: #ba795c;
+}
+
+.earth-melee {
+  border-image-source: linear-gradient(to bottom, #ba795c, #fa9260);
+}
+.earth-melee .tem-info img,
+.earth-melee .name {
+  border-color: #ba795c;
+}
+
+.earth-crystal {
+  border-image-source: linear-gradient(to bottom, #ba795c, #ea4a68);
+}
+.earth-crystal .tem-info img,
+.earth-crystal .name {
+  border-color: #ba795c;
+}
+
+.earth-toxic {
+  border-image-source: linear-gradient(to bottom, #ba795c, #5c565c);
+}
+.earth-toxic .tem-info img,
+.earth-toxic .name {
+  border-color: #ba795c;
+}
+
+.mental-neutral {
+  border-image-source: linear-gradient(to bottom, #c369a3, #e6f7f7);
+}
+.mental-neutral .tem-info img,
+.mental-neutral .name {
+  border-color: #c369a3;
+}
+
+.mental-fire {
+  border-image-source: linear-gradient(to bottom, #c369a3, #e85c4e);
+}
+.mental-fire .tem-info img,
+.mental-fire .name {
+  border-color: #c369a3;
+}
+
+.mental-water {
+  border-image-source: linear-gradient(to bottom, #c369a3, #45cbff);
+}
+.mental-water .tem-info img,
+.mental-water .name {
+  border-color: #c369a3;
+}
+
+.mental-nature {
+  border-image-source: linear-gradient(to bottom, #c369a3, #adde77);
+}
+.mental-nature .tem-info img,
+.mental-nature .name {
+  border-color: #c369a3;
+}
+
+.mental-electric {
+  border-image-source: linear-gradient(to bottom, #c369a3, #ffe174);
+}
+.mental-electric .tem-info img,
+.mental-electric .name {
+  border-color: #c369a3;
+}
+
+.mental-earth {
+  border-image-source: linear-gradient(to bottom, #c369a3, #ba795c);
+}
+.mental-earth .tem-info img,
+.mental-earth .name {
+  border-color: #c369a3;
+}
+
+.mental-wind {
+  border-image-source: linear-gradient(to bottom, #c369a3, #08fab3);
+}
+.mental-wind .tem-info img,
+.mental-wind .name {
+  border-color: #c369a3;
+}
+
+.mental-digital {
+  border-image-source: linear-gradient(to bottom, #c369a3, #a4c0c1);
+}
+.mental-digital .tem-info img,
+.mental-digital .name {
+  border-color: #c369a3;
+}
+
+.mental-melee {
+  border-image-source: linear-gradient(to bottom, #c369a3, #fa9260);
+}
+.mental-melee .tem-info img,
+.mental-melee .name {
+  border-color: #c369a3;
+}
+
+.mental-crystal {
+  border-image-source: linear-gradient(to bottom, #c369a3, #ea4a68);
+}
+.mental-crystal .tem-info img,
+.mental-crystal .name {
+  border-color: #c369a3;
+}
+
+.mental-toxic {
+  border-image-source: linear-gradient(to bottom, #c369a3, #5c565c);
+}
+.mental-toxic .tem-info img,
+.mental-toxic .name {
+  border-color: #c369a3;
+}
+
+.wind-neutral {
+  border-image-source: linear-gradient(to bottom, #08fab3, #e6f7f7);
+}
+.wind-neutral .tem-info img,
+.wind-neutral .name {
+  border-color: #08fab3;
+}
+
+.wind-fire {
+  border-image-source: linear-gradient(to bottom, #08fab3, #e85c4e);
+}
+.wind-fire .tem-info img,
+.wind-fire .name {
+  border-color: #08fab3;
+}
+
+.wind-water {
+  border-image-source: linear-gradient(to bottom, #08fab3, #45cbff);
+}
+.wind-water .tem-info img,
+.wind-water .name {
+  border-color: #08fab3;
+}
+
+.wind-nature {
+  border-image-source: linear-gradient(to bottom, #08fab3, #adde77);
+}
+.wind-nature .tem-info img,
+.wind-nature .name {
+  border-color: #08fab3;
+}
+
+.wind-electric {
+  border-image-source: linear-gradient(to bottom, #08fab3, #ffe174);
+}
+.wind-electric .tem-info img,
+.wind-electric .name {
+  border-color: #08fab3;
+}
+
+.wind-earth {
+  border-image-source: linear-gradient(to bottom, #08fab3, #ba795c);
+}
+.wind-earth .tem-info img,
+.wind-earth .name {
+  border-color: #08fab3;
+}
+
+.wind-mental {
+  border-image-source: linear-gradient(to bottom, #08fab3, #c369a3);
+}
+.wind-mental .tem-info img,
+.wind-mental .name {
+  border-color: #08fab3;
+}
+
+.wind-digital {
+  border-image-source: linear-gradient(to bottom, #08fab3, #a4c0c1);
+}
+.wind-digital .tem-info img,
+.wind-digital .name {
+  border-color: #08fab3;
+}
+
+.wind-melee {
+  border-image-source: linear-gradient(to bottom, #08fab3, #fa9260);
+}
+.wind-melee .tem-info img,
+.wind-melee .name {
+  border-color: #08fab3;
+}
+
+.wind-crystal {
+  border-image-source: linear-gradient(to bottom, #08fab3, #ea4a68);
+}
+.wind-crystal .tem-info img,
+.wind-crystal .name {
+  border-color: #08fab3;
+}
+
+.wind-toxic {
+  border-image-source: linear-gradient(to bottom, #08fab3, #5c565c);
+}
+.wind-toxic .tem-info img,
+.wind-toxic .name {
+  border-color: #08fab3;
+}
+
+.digital-neutral {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #e6f7f7);
+}
+.digital-neutral .tem-info img,
+.digital-neutral .name {
+  border-color: #a4c0c1;
+}
+
+.digital-fire {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #e85c4e);
+}
+.digital-fire .tem-info img,
+.digital-fire .name {
+  border-color: #a4c0c1;
+}
+
+.digital-water {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #45cbff);
+}
+.digital-water .tem-info img,
+.digital-water .name {
+  border-color: #a4c0c1;
+}
+
+.digital-nature {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #adde77);
+}
+.digital-nature .tem-info img,
+.digital-nature .name {
+  border-color: #a4c0c1;
+}
+
+.digital-electric {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #ffe174);
+}
+.digital-electric .tem-info img,
+.digital-electric .name {
+  border-color: #a4c0c1;
+}
+
+.digital-earth {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #ba795c);
+}
+.digital-earth .tem-info img,
+.digital-earth .name {
+  border-color: #a4c0c1;
+}
+
+.digital-mental {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #c369a3);
+}
+.digital-mental .tem-info img,
+.digital-mental .name {
+  border-color: #a4c0c1;
+}
+
+.digital-wind {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #08fab3);
+}
+.digital-wind .tem-info img,
+.digital-wind .name {
+  border-color: #a4c0c1;
+}
+
+.digital-melee {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #fa9260);
+}
+.digital-melee .tem-info img,
+.digital-melee .name {
+  border-color: #a4c0c1;
+}
+
+.digital-crystal {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #ea4a68);
+}
+.digital-crystal .tem-info img,
+.digital-crystal .name {
+  border-color: #a4c0c1;
+}
+
+.digital-toxic {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #5c565c);
+}
+.digital-toxic .tem-info img,
+.digital-toxic .name {
+  border-color: #a4c0c1;
+}
+
+.melee-neutral {
+  border-image-source: linear-gradient(to bottom, #fa9260, #e6f7f7);
+}
+.melee-neutral .tem-info img,
+.melee-neutral .name {
+  border-color: #fa9260;
+}
+
+.melee-fire {
+  border-image-source: linear-gradient(to bottom, #fa9260, #e85c4e);
+}
+.melee-fire .tem-info img,
+.melee-fire .name {
+  border-color: #fa9260;
+}
+
+.melee-water {
+  border-image-source: linear-gradient(to bottom, #fa9260, #45cbff);
+}
+.melee-water .tem-info img,
+.melee-water .name {
+  border-color: #fa9260;
+}
+
+.melee-nature {
+  border-image-source: linear-gradient(to bottom, #fa9260, #adde77);
+}
+.melee-nature .tem-info img,
+.melee-nature .name {
+  border-color: #fa9260;
+}
+
+.melee-electric {
+  border-image-source: linear-gradient(to bottom, #fa9260, #ffe174);
+}
+.melee-electric .tem-info img,
+.melee-electric .name {
+  border-color: #fa9260;
+}
+
+.melee-earth {
+  border-image-source: linear-gradient(to bottom, #fa9260, #ba795c);
+}
+.melee-earth .tem-info img,
+.melee-earth .name {
+  border-color: #fa9260;
+}
+
+.melee-mental {
+  border-image-source: linear-gradient(to bottom, #fa9260, #c369a3);
+}
+.melee-mental .tem-info img,
+.melee-mental .name {
+  border-color: #fa9260;
+}
+
+.melee-wind {
+  border-image-source: linear-gradient(to bottom, #fa9260, #08fab3);
+}
+.melee-wind .tem-info img,
+.melee-wind .name {
+  border-color: #fa9260;
+}
+
+.melee-digital {
+  border-image-source: linear-gradient(to bottom, #fa9260, #a4c0c1);
+}
+.melee-digital .tem-info img,
+.melee-digital .name {
+  border-color: #fa9260;
+}
+
+.melee-crystal {
+  border-image-source: linear-gradient(to bottom, #fa9260, #ea4a68);
+}
+.melee-crystal .tem-info img,
+.melee-crystal .name {
+  border-color: #fa9260;
+}
+
+.melee-toxic {
+  border-image-source: linear-gradient(to bottom, #fa9260, #5c565c);
+}
+.melee-toxic .tem-info img,
+.melee-toxic .name {
+  border-color: #fa9260;
+}
+
+.crystal-neutral {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #e6f7f7);
+}
+.crystal-neutral .tem-info img,
+.crystal-neutral .name {
+  border-color: #ea4a68;
+}
+
+.crystal-fire {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #e85c4e);
+}
+.crystal-fire .tem-info img,
+.crystal-fire .name {
+  border-color: #ea4a68;
+}
+
+.crystal-water {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #45cbff);
+}
+.crystal-water .tem-info img,
+.crystal-water .name {
+  border-color: #ea4a68;
+}
+
+.crystal-nature {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #adde77);
+}
+.crystal-nature .tem-info img,
+.crystal-nature .name {
+  border-color: #ea4a68;
+}
+
+.crystal-electric {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #ffe174);
+}
+.crystal-electric .tem-info img,
+.crystal-electric .name {
+  border-color: #ea4a68;
+}
+
+.crystal-earth {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #ba795c);
+}
+.crystal-earth .tem-info img,
+.crystal-earth .name {
+  border-color: #ea4a68;
+}
+
+.crystal-mental {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #c369a3);
+}
+.crystal-mental .tem-info img,
+.crystal-mental .name {
+  border-color: #ea4a68;
+}
+
+.crystal-wind {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #08fab3);
+}
+.crystal-wind .tem-info img,
+.crystal-wind .name {
+  border-color: #ea4a68;
+}
+
+.crystal-digital {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #a4c0c1);
+}
+.crystal-digital .tem-info img,
+.crystal-digital .name {
+  border-color: #ea4a68;
+}
+
+.crystal-melee {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #fa9260);
+}
+.crystal-melee .tem-info img,
+.crystal-melee .name {
+  border-color: #ea4a68;
+}
+
+.crystal-toxic {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #5c565c);
+}
+.crystal-toxic .tem-info img,
+.crystal-toxic .name {
+  border-color: #ea4a68;
+}
+
+.toxic-neutral {
+  border-image-source: linear-gradient(to bottom, #5c565c, #e6f7f7);
+}
+.toxic-neutral .tem-info img,
+.toxic-neutral .name {
+  border-color: #5c565c;
+}
+
+.toxic-fire {
+  border-image-source: linear-gradient(to bottom, #5c565c, #e85c4e);
+}
+.toxic-fire .tem-info img,
+.toxic-fire .name {
+  border-color: #5c565c;
+}
+
+.toxic-water {
+  border-image-source: linear-gradient(to bottom, #5c565c, #45cbff);
+}
+.toxic-water .tem-info img,
+.toxic-water .name {
+  border-color: #5c565c;
+}
+
+.toxic-nature {
+  border-image-source: linear-gradient(to bottom, #5c565c, #adde77);
+}
+.toxic-nature .tem-info img,
+.toxic-nature .name {
+  border-color: #5c565c;
+}
+
+.toxic-electric {
+  border-image-source: linear-gradient(to bottom, #5c565c, #ffe174);
+}
+.toxic-electric .tem-info img,
+.toxic-electric .name {
+  border-color: #5c565c;
+}
+
+.toxic-earth {
+  border-image-source: linear-gradient(to bottom, #5c565c, #ba795c);
+}
+.toxic-earth .tem-info img,
+.toxic-earth .name {
+  border-color: #5c565c;
+}
+
+.toxic-mental {
+  border-image-source: linear-gradient(to bottom, #5c565c, #c369a3);
+}
+.toxic-mental .tem-info img,
+.toxic-mental .name {
+  border-color: #5c565c;
+}
+
+.toxic-wind {
+  border-image-source: linear-gradient(to bottom, #5c565c, #08fab3);
+}
+.toxic-wind .tem-info img,
+.toxic-wind .name {
+  border-color: #5c565c;
+}
+
+.toxic-digital {
+  border-image-source: linear-gradient(to bottom, #5c565c, #a4c0c1);
+}
+.toxic-digital .tem-info img,
+.toxic-digital .name {
+  border-color: #5c565c;
+}
+
+.toxic-melee {
+  border-image-source: linear-gradient(to bottom, #5c565c, #fa9260);
+}
+.toxic-melee .tem-info img,
+.toxic-melee .name {
+  border-color: #5c565c;
+}
+
+.toxic-crystal {
+  border-image-source: linear-gradient(to bottom, #5c565c, #ea4a68);
+}
+.toxic-crystal .tem-info img,
+.toxic-crystal .name {
+  border-color: #5c565c;
+}
+
+.neutral {
+  border-image-source: linear-gradient(to bottom, #e6f7f7, #e6f7f7);
+}
+.neutral .tem-info img,
+.neutral .name {
+  border-color: #e6f7f7;
+}
+
+.fire {
+  border-image-source: linear-gradient(to bottom, #e85c4e, #e85c4e);
+}
+.fire .tem-info img,
+.fire .name {
+  border-color: #e85c4e;
+}
+
+.water {
+  border-image-source: linear-gradient(to bottom, #45cbff, #45cbff);
+}
+.water .tem-info img,
+.water .name {
+  border-color: #45cbff;
+}
+
+.nature {
+  border-image-source: linear-gradient(to bottom, #adde77, #adde77);
+}
+.nature .tem-info img,
+.nature .name {
+  border-color: #adde77;
+}
+
+.electric {
+  border-image-source: linear-gradient(to bottom, #ffe174, #ffe174);
+}
+.electric .tem-info img,
+.electric .name {
+  border-color: #ffe174;
+}
+
+.earth {
+  border-image-source: linear-gradient(to bottom, #ba795c, #ba795c);
+}
+.earth .tem-info img,
+.earth .name {
+  border-color: #ba795c;
+}
+
+.mental {
+  border-image-source: linear-gradient(to bottom, #c369a3, #c369a3);
+}
+.mental .tem-info img,
+.mental .name {
+  border-color: #c369a3;
+}
+
+.wind {
+  border-image-source: linear-gradient(to bottom, #08fab3, #08fab3);
+}
+.wind .tem-info img,
+.wind .name {
+  border-color: #08fab3;
+}
+
+.digital {
+  border-image-source: linear-gradient(to bottom, #a4c0c1, #a4c0c1);
+}
+.digital .tem-info img,
+.digital .name {
+  border-color: #a4c0c1;
+}
+
+.melee {
+  border-image-source: linear-gradient(to bottom, #fa9260, #fa9260);
+}
+.melee .tem-info img,
+.melee .name {
+  border-color: #fa9260;
+}
+
+.crystal {
+  border-image-source: linear-gradient(to bottom, #ea4a68, #ea4a68);
+}
+.crystal .tem-info img,
+.crystal .name {
+  border-color: #ea4a68;
+}
+
+.toxic {
+  border-image-source: linear-gradient(to bottom, #5c565c, #5c565c);
+}
+.toxic .tem-info img,
+.toxic .name {
+  border-color: #5c565c;
+}/*# sourceMappingURL=Dexcard.css.map */
