@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Dexcard.css'
+import './gradients.css'
 
 interface Props {
 	temData: any
 	types: any
 }
 
-function Temcard({ temData, types }: Props) {
-	const { number, name, icon, wikiRenderAnimatedUrl } = temData
+function Temcard({ temData, types }:Props) {
+	const { number, name, icon } = temData
 	return (
 		<Link
 			to={`${number}`}

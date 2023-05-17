@@ -1,0 +1,735 @@
+
+	$neutral: #e6f7f7;
+	$fire: #e85c4e;
+	$water: #45cbff;
+	$nature: #adde77;
+	$electric: #ffe174;
+	$earth: #ba795c;
+	$mental: #c369a3;
+	$wind: #08fab3;
+	$digital: #a4c0c1;
+	$melee: #fa9260;
+	$crystal: #ea4a68;
+	$toxic: #5c565c;
+	$null: #60606011;
+.neutral-fire {
+                    border-image-source: linear-gradient(180deg, $neutral, $fire);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-water {
+                    border-image-source: linear-gradient(180deg, $neutral, $water);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-nature {
+                    border-image-source: linear-gradient(180deg, $neutral, $nature);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-electric {
+                    border-image-source: linear-gradient(180deg, $neutral, $electric);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-earth {
+                    border-image-source: linear-gradient(180deg, $neutral, $earth);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-mental {
+                    border-image-source: linear-gradient(180deg, $neutral, $mental);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-wind {
+                    border-image-source: linear-gradient(180deg, $neutral, $wind);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-digital {
+                    border-image-source: linear-gradient(180deg, $neutral, $digital);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-melee {
+                    border-image-source: linear-gradient(180deg, $neutral, $melee);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-crystal {
+                    border-image-source: linear-gradient(180deg, $neutral, $crystal);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.neutral-toxic {
+                    border-image-source: linear-gradient(180deg, $neutral, $toxic);
+                    .tem-info img, .name {
+                        border-color: $neutral;
+                    }
+                }.fire-neutral {
+                    border-image-source: linear-gradient(180deg, $fire, $neutral);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-water {
+                    border-image-source: linear-gradient(180deg, $fire, $water);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-nature {
+                    border-image-source: linear-gradient(180deg, $fire, $nature);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-electric {
+                    border-image-source: linear-gradient(180deg, $fire, $electric);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-earth {
+                    border-image-source: linear-gradient(180deg, $fire, $earth);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-mental {
+                    border-image-source: linear-gradient(180deg, $fire, $mental);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-wind {
+                    border-image-source: linear-gradient(180deg, $fire, $wind);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-digital {
+                    border-image-source: linear-gradient(180deg, $fire, $digital);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-melee {
+                    border-image-source: linear-gradient(180deg, $fire, $melee);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-crystal {
+                    border-image-source: linear-gradient(180deg, $fire, $crystal);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.fire-toxic {
+                    border-image-source: linear-gradient(180deg, $fire, $toxic);
+                    .tem-info img, .name {
+                        border-color: $fire;
+                    }
+                }.water-neutral {
+                    border-image-source: linear-gradient(180deg, $water, $neutral);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-fire {
+                    border-image-source: linear-gradient(180deg, $water, $fire);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-nature {
+                    border-image-source: linear-gradient(180deg, $water, $nature);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-electric {
+                    border-image-source: linear-gradient(180deg, $water, $electric);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-earth {
+                    border-image-source: linear-gradient(180deg, $water, $earth);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-mental {
+                    border-image-source: linear-gradient(180deg, $water, $mental);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-wind {
+                    border-image-source: linear-gradient(180deg, $water, $wind);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-digital {
+                    border-image-source: linear-gradient(180deg, $water, $digital);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-melee {
+                    border-image-source: linear-gradient(180deg, $water, $melee);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-crystal {
+                    border-image-source: linear-gradient(180deg, $water, $crystal);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.water-toxic {
+                    border-image-source: linear-gradient(180deg, $water, $toxic);
+                    .tem-info img, .name {
+                        border-color: $water;
+                    }
+                }.nature-neutral {
+                    border-image-source: linear-gradient(180deg, $nature, $neutral);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-fire {
+                    border-image-source: linear-gradient(180deg, $nature, $fire);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-water {
+                    border-image-source: linear-gradient(180deg, $nature, $water);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-electric {
+                    border-image-source: linear-gradient(180deg, $nature, $electric);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-earth {
+                    border-image-source: linear-gradient(180deg, $nature, $earth);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-mental {
+                    border-image-source: linear-gradient(180deg, $nature, $mental);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-wind {
+                    border-image-source: linear-gradient(180deg, $nature, $wind);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-digital {
+                    border-image-source: linear-gradient(180deg, $nature, $digital);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-melee {
+                    border-image-source: linear-gradient(180deg, $nature, $melee);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-crystal {
+                    border-image-source: linear-gradient(180deg, $nature, $crystal);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.nature-toxic {
+                    border-image-source: linear-gradient(180deg, $nature, $toxic);
+                    .tem-info img, .name {
+                        border-color: $nature;
+                    }
+                }.electric-neutral {
+                    border-image-source: linear-gradient(180deg, $electric, $neutral);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-fire {
+                    border-image-source: linear-gradient(180deg, $electric, $fire);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-water {
+                    border-image-source: linear-gradient(180deg, $electric, $water);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-nature {
+                    border-image-source: linear-gradient(180deg, $electric, $nature);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-earth {
+                    border-image-source: linear-gradient(180deg, $electric, $earth);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-mental {
+                    border-image-source: linear-gradient(180deg, $electric, $mental);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-wind {
+                    border-image-source: linear-gradient(180deg, $electric, $wind);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-digital {
+                    border-image-source: linear-gradient(180deg, $electric, $digital);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-melee {
+                    border-image-source: linear-gradient(180deg, $electric, $melee);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-crystal {
+                    border-image-source: linear-gradient(180deg, $electric, $crystal);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.electric-toxic {
+                    border-image-source: linear-gradient(180deg, $electric, $toxic);
+                    .tem-info img, .name {
+                        border-color: $electric;
+                    }
+                }.earth-neutral {
+                    border-image-source: linear-gradient(180deg, $earth, $neutral);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-fire {
+                    border-image-source: linear-gradient(180deg, $earth, $fire);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-water {
+                    border-image-source: linear-gradient(180deg, $earth, $water);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-nature {
+                    border-image-source: linear-gradient(180deg, $earth, $nature);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-electric {
+                    border-image-source: linear-gradient(180deg, $earth, $electric);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-mental {
+                    border-image-source: linear-gradient(180deg, $earth, $mental);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-wind {
+                    border-image-source: linear-gradient(180deg, $earth, $wind);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-digital {
+                    border-image-source: linear-gradient(180deg, $earth, $digital);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-melee {
+                    border-image-source: linear-gradient(180deg, $earth, $melee);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-crystal {
+                    border-image-source: linear-gradient(180deg, $earth, $crystal);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.earth-toxic {
+                    border-image-source: linear-gradient(180deg, $earth, $toxic);
+                    .tem-info img, .name {
+                        border-color: $earth;
+                    }
+                }.mental-neutral {
+                    border-image-source: linear-gradient(180deg, $mental, $neutral);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-fire {
+                    border-image-source: linear-gradient(180deg, $mental, $fire);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-water {
+                    border-image-source: linear-gradient(180deg, $mental, $water);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-nature {
+                    border-image-source: linear-gradient(180deg, $mental, $nature);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-electric {
+                    border-image-source: linear-gradient(180deg, $mental, $electric);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-earth {
+                    border-image-source: linear-gradient(180deg, $mental, $earth);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-wind {
+                    border-image-source: linear-gradient(180deg, $mental, $wind);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-digital {
+                    border-image-source: linear-gradient(180deg, $mental, $digital);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-melee {
+                    border-image-source: linear-gradient(180deg, $mental, $melee);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-crystal {
+                    border-image-source: linear-gradient(180deg, $mental, $crystal);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.mental-toxic {
+                    border-image-source: linear-gradient(180deg, $mental, $toxic);
+                    .tem-info img, .name {
+                        border-color: $mental;
+                    }
+                }.wind-neutral {
+                    border-image-source: linear-gradient(180deg, $wind, $neutral);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-fire {
+                    border-image-source: linear-gradient(180deg, $wind, $fire);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-water {
+                    border-image-source: linear-gradient(180deg, $wind, $water);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-nature {
+                    border-image-source: linear-gradient(180deg, $wind, $nature);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-electric {
+                    border-image-source: linear-gradient(180deg, $wind, $electric);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-earth {
+                    border-image-source: linear-gradient(180deg, $wind, $earth);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-mental {
+                    border-image-source: linear-gradient(180deg, $wind, $mental);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-digital {
+                    border-image-source: linear-gradient(180deg, $wind, $digital);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-melee {
+                    border-image-source: linear-gradient(180deg, $wind, $melee);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-crystal {
+                    border-image-source: linear-gradient(180deg, $wind, $crystal);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.wind-toxic {
+                    border-image-source: linear-gradient(180deg, $wind, $toxic);
+                    .tem-info img, .name {
+                        border-color: $wind;
+                    }
+                }.digital-neutral {
+                    border-image-source: linear-gradient(180deg, $digital, $neutral);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-fire {
+                    border-image-source: linear-gradient(180deg, $digital, $fire);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-water {
+                    border-image-source: linear-gradient(180deg, $digital, $water);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-nature {
+                    border-image-source: linear-gradient(180deg, $digital, $nature);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-electric {
+                    border-image-source: linear-gradient(180deg, $digital, $electric);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-earth {
+                    border-image-source: linear-gradient(180deg, $digital, $earth);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-mental {
+                    border-image-source: linear-gradient(180deg, $digital, $mental);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-wind {
+                    border-image-source: linear-gradient(180deg, $digital, $wind);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-melee {
+                    border-image-source: linear-gradient(180deg, $digital, $melee);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-crystal {
+                    border-image-source: linear-gradient(180deg, $digital, $crystal);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.digital-toxic {
+                    border-image-source: linear-gradient(180deg, $digital, $toxic);
+                    .tem-info img, .name {
+                        border-color: $digital;
+                    }
+                }.melee-neutral {
+                    border-image-source: linear-gradient(180deg, $melee, $neutral);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-fire {
+                    border-image-source: linear-gradient(180deg, $melee, $fire);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-water {
+                    border-image-source: linear-gradient(180deg, $melee, $water);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-nature {
+                    border-image-source: linear-gradient(180deg, $melee, $nature);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-electric {
+                    border-image-source: linear-gradient(180deg, $melee, $electric);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-earth {
+                    border-image-source: linear-gradient(180deg, $melee, $earth);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-mental {
+                    border-image-source: linear-gradient(180deg, $melee, $mental);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-wind {
+                    border-image-source: linear-gradient(180deg, $melee, $wind);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-digital {
+                    border-image-source: linear-gradient(180deg, $melee, $digital);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-crystal {
+                    border-image-source: linear-gradient(180deg, $melee, $crystal);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.melee-toxic {
+                    border-image-source: linear-gradient(180deg, $melee, $toxic);
+                    .tem-info img, .name {
+                        border-color: $melee;
+                    }
+                }.crystal-neutral {
+                    border-image-source: linear-gradient(180deg, $crystal, $neutral);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-fire {
+                    border-image-source: linear-gradient(180deg, $crystal, $fire);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-water {
+                    border-image-source: linear-gradient(180deg, $crystal, $water);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-nature {
+                    border-image-source: linear-gradient(180deg, $crystal, $nature);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-electric {
+                    border-image-source: linear-gradient(180deg, $crystal, $electric);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-earth {
+                    border-image-source: linear-gradient(180deg, $crystal, $earth);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-mental {
+                    border-image-source: linear-gradient(180deg, $crystal, $mental);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-wind {
+                    border-image-source: linear-gradient(180deg, $crystal, $wind);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-digital {
+                    border-image-source: linear-gradient(180deg, $crystal, $digital);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-melee {
+                    border-image-source: linear-gradient(180deg, $crystal, $melee);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.crystal-toxic {
+                    border-image-source: linear-gradient(180deg, $crystal, $toxic);
+                    .tem-info img, .name {
+                        border-color: $crystal;
+                    }
+                }.toxic-neutral {
+                    border-image-source: linear-gradient(180deg, $toxic, $neutral);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-fire {
+                    border-image-source: linear-gradient(180deg, $toxic, $fire);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-water {
+                    border-image-source: linear-gradient(180deg, $toxic, $water);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-nature {
+                    border-image-source: linear-gradient(180deg, $toxic, $nature);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-electric {
+                    border-image-source: linear-gradient(180deg, $toxic, $electric);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-earth {
+                    border-image-source: linear-gradient(180deg, $toxic, $earth);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-mental {
+                    border-image-source: linear-gradient(180deg, $toxic, $mental);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-wind {
+                    border-image-source: linear-gradient(180deg, $toxic, $wind);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-digital {
+                    border-image-source: linear-gradient(180deg, $toxic, $digital);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-melee {
+                    border-image-source: linear-gradient(180deg, $toxic, $melee);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.toxic-crystal {
+                    border-image-source: linear-gradient(180deg, $toxic, $crystal);
+                    .tem-info img, .name {
+                        border-color: $toxic;
+                    }
+                }.neutral {
+                border-image-source: linear-gradient(180deg, $neutral, $neutral);
+                .tem-info img, .name {
+                    border-color: $neutral;
+                }
+            }.fire {
+                border-image-source: linear-gradient(180deg, $fire, $fire);
+                .tem-info img, .name {
+                    border-color: $fire;
+                }
+            }.water {
+                border-image-source: linear-gradient(180deg, $water, $water);
+                .tem-info img, .name {
+                    border-color: $water;
+                }
+            }.nature {
+                border-image-source: linear-gradient(180deg, $nature, $nature);
+                .tem-info img, .name {
+                    border-color: $nature;
+                }
+            }.electric {
+                border-image-source: linear-gradient(180deg, $electric, $electric);
+                .tem-info img, .name {
+                    border-color: $electric;
+                }
+            }.earth {
+                border-image-source: linear-gradient(180deg, $earth, $earth);
+                .tem-info img, .name {
+                    border-color: $earth;
+                }
+            }.mental {
+                border-image-source: linear-gradient(180deg, $mental, $mental);
+                .tem-info img, .name {
+                    border-color: $mental;
+                }
+            }.wind {
+                border-image-source: linear-gradient(180deg, $wind, $wind);
+                .tem-info img, .name {
+                    border-color: $wind;
+                }
+            }.digital {
+                border-image-source: linear-gradient(180deg, $digital, $digital);
+                .tem-info img, .name {
+                    border-color: $digital;
+                }
+            }.melee {
+                border-image-source: linear-gradient(180deg, $melee, $melee);
+                .tem-info img, .name {
+                    border-color: $melee;
+                }
+            }.crystal {
+                border-image-source: linear-gradient(180deg, $crystal, $crystal);
+                .tem-info img, .name {
+                    border-color: $crystal;
+                }
+            }.toxic {
+                border-image-source: linear-gradient(180deg, $toxic, $toxic);
+                .tem-info img, .name {
+                    border-color: $toxic;
+                }
+            }

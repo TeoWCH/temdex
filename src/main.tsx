@@ -1,33 +1,40 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-	createBrowserRouter,
-	Link,
 	Navigate,
-	RedirectFunction,
+	BrowserRouter,
 	Route,
-	RouterProvider
+	Routes
 } from 'react-router-dom'
 import Dex from './components/Dex/Dex'
 import Navbar from './components/Navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
+import Temtem from './components/Temtem/Temtem'
 
-const router = createBrowserRouter([
-	{
-		path: '*',
-		element: <Navigate to="/temdex" />
-	},
-	{
-		path: 'temdex',
-		element: <Dex />,
-	},
-	{
-		path: 'temdex/:temtemId',
-		element: <div></div>
-	}
-])
+// const router = createBrowserRouter([
+// 	{
+// 		path: '*',
+// 		element: <Navigate to='/temdex' />
+// 	},
+// 	{
+// 		path: 'temdex',
+// 		element: <Dex />,
+// 		children: [
+// 			{
+// 				path: ':temtemId',
+// 				element: <Temtem />
+// 			}
+// 		]
+// 	},
+// ])
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-	<RouterProvider router={router} />
+	<BrowserRouter>
+		<Routes>
+			<Route path='*' element={<Navigate to='/temdex' />} />
+			<Route path='/temdex' element={<Dex />} />
+			<Route path='/temdex/:id' element={<Temtem />} />
+		</Routes>
+	</BrowserRouter>
 )

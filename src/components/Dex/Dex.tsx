@@ -40,21 +40,22 @@ export default function Dex() {
 	}
 
 	return (
-		<Container>
-			<Navbar handler={changeHandler} />
-			<div className="Dex mt-3">
-				{temList.map((value: any, index: number) => {
-					return (
-						<Temcard
-							key={index}
-							temData={value}
-							types={value.types.map((typeName: any) => {
-								return typesList.find((type: any) => type.name == typeName)
-							})}
-						/>
-					)
-				})}
-			</div>
-		</Container>
+		(!(temList && typesList) ? <div>'Loading...'</div> :
+			<Container>
+				<Navbar handler={changeHandler} />
+				<div className="Dex mt-3">
+					{temList.map((value: any, index: number) => {
+						return (
+							<Temcard
+								key={index}
+								temData={value}
+								types={value.types.map((typeName: any) => {
+									return typesList.find((type: any) => type.name == typeName)
+								})}
+							/>
+						)
+					})}
+				</div>
+			</Container>)
 	)
 }
