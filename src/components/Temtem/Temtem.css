@@ -1,1 +1,8 @@
-/*# sourceMappingURL=Temtem.css.map */
+.container {
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  height: 100%;
+  border: 1px solid black;
+  padding: 2rem;
+}/*# sourceMappingURL=Temtem.css.map */

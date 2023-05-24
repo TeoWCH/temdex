@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import './Temtem.css'
 
 export default function Temtem() {
     const { id } = useParams()
@@ -14,5 +15,16 @@ export default function Temtem() {
         api()
     }, [])
 
-    return (<div>{}</div>)
+    return (
+        (!temInfo ? 'Loading' :
+        <div className='container'>
+            {temInfo.name}
+            <div className="techniques">
+                {/* {temInfo.techniques.map((tech) => {
+                    return <div>{tech.name} - {tech.levels} - {tech.source}</div>
+                })} */}
+            </div>
+        </div>
+        )
+    )
 }
