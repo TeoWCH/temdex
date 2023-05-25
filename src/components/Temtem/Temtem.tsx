@@ -16,13 +16,13 @@ export default function Temtem() {
     }, [])
 
     return (
-        (!temInfo ? 'Loading' :
-        <div className='container'>
+        (temInfo.name === undefined ? 'Loading' :
+        <div className='Temtem'>
             {temInfo.name}
             <div className="techniques">
-                {/* {temInfo.techniques.map((tech) => {
-                    return <div>{tech.name} - {tech.levels} - {tech.source}</div>
-                })} */}
+                {temInfo.techniques.map((tech, index) => {
+                    return <div key={index}>{tech.name} - {tech.levels} - {tech.source}</div>
+                })}
             </div>
         </div>
         )
