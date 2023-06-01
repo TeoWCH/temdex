@@ -12,23 +12,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import Temtem from './components/Temtem/Temtem'
 
-// const router = createBrowserRouter([
-// 	{
-// 		path: '*',
-// 		element: <Navigate to='/temdex' />
-// 	},
-// 	{
-// 		path: 'temdex',
-// 		element: <Dex />,
-// 		children: [
-// 			{
-// 				path: ':temtemId',
-// 				element: <Temtem />
-// 			}
-// 		]
-// 	},
-// ])
-
 createRoot(document.getElementById('root') as HTMLElement).render(
 	<BrowserRouter>
 		<Routes>

@@ -5,4 +5,22 @@
   height: 100%;
   border: 1px solid black;
   padding: 2rem;
+}
+.Temtem .splash-art {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #FFF;
+  height: -moz-max-content;
+  height: max-content;
+}
+.Temtem .splash-art .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #FFF;
+  padding: 10px;
+}
+.Temtem .splash-art img {
+  width: 150px;
+  margin: 20px;
 }/*# sourceMappingURL=Temtem.css.map */
