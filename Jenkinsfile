@@ -6,8 +6,9 @@ pipeline {
                 echo 'Unify Office Integration'
 
                 script {
-                    log = sh "cat ${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log"
-                    echo log
+                    logPath = "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log"
+                    if (fileExists(logPath))
+                    log = sh "cat ${logPath} >> log.txt"
                     // create payload
                     patchOrg = """
                         {
