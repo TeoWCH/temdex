@@ -6,6 +6,8 @@ pipeline {
                 echo 'Unify Office Integration'
 
                 script {
+                    log = sh "cat ${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_NUMBER}/log"
+                    echo log
                     // create payload
                     patchOrg = """
                         {
